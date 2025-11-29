@@ -14,14 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "ShopNow",
+  title: "TechHub",
   description: "Votre destination pour les dernières tendances. Découvrez nos produits populaires.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-gray-50`} >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`} >
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
